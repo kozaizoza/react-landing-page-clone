@@ -5,7 +5,7 @@ export default function App() {
   return (
     <>
       <header className={styles.header}>
-        <nav className={`${styles.container} ${styles.navigationBar}`}>
+        <nav className={styles.navigationBar}>
           <LookaLogo className={styles.logo} />
           <div className={styles.navBar}>
             <ul>
