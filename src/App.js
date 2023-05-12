@@ -29,13 +29,51 @@ export default function App() {
               </li>
             </ul>
           </div>
-          <div className={styles.headerButtonsContainer}>
+          <div className={styles.navButtons}>
             <a href="/#">Log in</a>
             <a href="/#">Sign up</a>
           </div>
         </nav>
       </header>
-      <main>main content</main>
+      <main>
+        <section className={styles.main}>
+          <div>
+            <h1 className={styles.mainTitle}>Make a logo with Looka</h1>
+            <p className={styles.mainParagraph}>
+              Looka Logo Maker combines your logo design preferences with
+              Artificial Intelligence to help you create a custom logo you'll
+              love. All it takes is a few clicks and five minutes.
+            </p>
+          </div>
+          <form>
+            <input
+              className={styles.mainInputBox}
+              defaultValue="Enter your company name"
+            />
+            <button className={styles.mainButton}>Let's make a logo!</button>
+          </form>
+        </section>
+        <section className={styles.firstSection}>
+          <img
+            className={styles.firstImg}
+            src="https://cdn.logojoy.com/wp-content/uploads/20201123121721/Surge-Select-Still.png"
+            loading="eager"
+          />
+          <div className={styles.firstContent}>
+            <h2>
+              <span>01.</span>
+              Our logo maker is easy
+            </h2>
+            <p className={styles.firstParagraph}>
+              Start by entering your company name and industry, then select the
+              perfect logo styles, colors, and symbols that you like the best.
+              Looka Logo Maker will use these as inspiration and start to
+              generate custom logo designs.
+            </p>
+          </div>
+        </section>
+      </main>
+
       <footer>my footer</footer>
     </>
   );
