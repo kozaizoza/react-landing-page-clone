@@ -53,22 +53,62 @@ export default function App() {
             <button className={styles.mainButton}>Let's make a logo!</button>
           </form>
         </section>
-        <section className={styles.firstSection}>
+        <section className={styles.layoutSection}>
           <img
-            className={styles.firstImg}
+            className={styles.layoutImg}
             src="https://cdn.logojoy.com/wp-content/uploads/20201123121721/Surge-Select-Still.png"
             loading="eager"
+            alt="Surge Select Still"
           />
-          <div className={styles.firstContent}>
-            <h2>
-              <span>01.</span>
+          <div className={styles.layoutContent}>
+            <h2 className={styles.h2}>
+              <span className={styles.span}>01.</span>
               Our logo maker is easy
             </h2>
-            <p className={styles.firstParagraph}>
+            <p className={styles.layoutParagraph}>
               Start by entering your company name and industry, then select the
               perfect logo styles, colors, and symbols that you like the best.
               Looka Logo Maker will use these as inspiration and start to
               generate custom logo designs.
+            </p>
+          </div>
+        </section>
+        <section className={styles.layoutSection}>
+          <div className={styles.layoutContent}>
+            <h2 className={styles.h2}>
+              <span>02.</span>
+              Our logo maker is fun
+            </h2>
+            <p className={styles.layoutParagraph}>
+              Finalize your colors, fonts, and layouts in our easy-to-use logo
+              editor to make sure you get exactly what you want. Undo any edits
+              you make and then click Save when you’ve created your perfect logo
+              design.
+            </p>
+          </div>
+          <img
+            className={styles.layoutImg}
+            src="https://cdn.logojoy.com/wp-content/uploads/20201123121758/Surge-Color-Still.png"
+            loading="eager"
+            alt="Surge Select Still"
+          />
+        </section>
+        <section className={styles.layoutSection}>
+          <img
+            className={styles.layoutImg}
+            src="https://cdn.logojoy.com/wp-content/uploads/20201123121842/Surge-Folder-Still.png"
+            loading="eager"
+            alt="Surge Select Still"
+          />
+          <div className={styles.layoutContent}>
+            <h2 className={styles.h2}>
+              <span className={styles.span}>03.</span>
+              Our logo maker delivers
+            </h2>
+            <p className={styles.layoutParagraph}>
+              Looka’s online logo maker delivers the goods, including vector
+              logo files and color variations. Your Brand Kit includes
+              everything that a logo designer would deliver, and more.
             </p>
           </div>
         </section>
